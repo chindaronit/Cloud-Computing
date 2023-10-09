@@ -1,5 +1,5 @@
 # Cloud-Computing
-##Cloud Computing with Amazon AWS 
+## Cloud Computing with Amazon AWS 
 ### Using aws api boto3
 - creating ec2 instances.
 - operations on ec2 instances.
