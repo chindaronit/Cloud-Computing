@@ -1,0 +1,109 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.user-card {
+  margin: 10rem 10rem;
+}
+
+.form-label {
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.user-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-icon {
+  width: 10rem;
+}
+
+.row {
+  margin: 0.5rem 0;
+}
+
+.cpad {
+  padding: 25px 0;
+}
+
+.labelfont {
+  font-size: 16px;
+}
+
+.textfont {
+  font-size: 16px;
+}
+
+.ccard {
+  margin: 0 20vw;
+}
+
+.seperator:nth-child(odd) {
+  background-color: rgba(236, 234, 234, 0.473);
+}
+
+.shadow {
+  box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 1), 0 4px 9px 0 rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .bcard {
+    width: 120rem;
+    height: 27rem;
+  }
+
+  .textfont {
+    font-size: 28px;
+  }
+
+  .labelfont {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .introfont {
+    font-size: 26px;
+  }
+
+  .ccard {
+    margin: 0 8vw;
+  }
+
+  .seperator {
+    padding: 10vh 0;
+  }
+
+  .chead {
+    font-size: 55px;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 8vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .textfont {
+    font-size: 28px;
+  }
+
+  .labelfont {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .ccard {
+    margin: 0 10vw;
+  }
+
+  .chead {
+    font-size: 60px;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 9vh;
+  }
+}

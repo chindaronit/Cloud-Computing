@@ -1,0 +1,103 @@
+.navbar-nav .nav-item:not(:last-child) {
+    margin-right: 4vw;
+}
+.card_hover {
+    padding: 2vh;
+    transition: border 1s;
+    transition: transform 0.7s; /* Adding smooth transition effect */
+}
+
+.card_hover:hover {
+    transform: scale(1.06); /* Apply scale transform on hover */
+    border: 2px solid rgb(197, 197, 197);
+}
+
+.cardlink {
+    text-decoration: none; /* Remove underline */
+    padding: 3%;
+    color: black; /* Change color to black */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
+    border: 1px solid rgb(197, 197, 197);
+    transition: 0.6s/* Adding smooth transition effect for color and shadow */
+}   
+
+.cardlink:hover {
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.Margin{
+    margin: 0 10vh;
+}
+
+
+.pad_mar{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.sticky-footer {
+    position: fixed;
+    bottom: -100px; /* Adjust this value based on your footer's height */
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Change to your desired background color */
+    padding: 20px 0; /* Adjust the padding as needed */
+    transition: bottom 0.3s ease-in-out;
+}
+  
+.sticky-footer.active {
+    bottom: 0;
+}
+i:hover{
+    opacity: 0.75;
+}
+
+.seperator{    
+    padding: 20vh 0;    
+}
+
+.seperator_comment{
+    padding: 20vh 0 5vh 0;
+}
+.seperator:nth-child(odd){
+    background-color: rgba(236, 234, 234, 0.473);   
+}
+
+.shadow{
+    box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 1), 0 4px 9px 0 rgba(0, 0, 0, 1);
+ 
+}
+.skillicon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.underline-animation {
+    display: inline-block;
+    position: relative;     
+  }
+  
+.underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

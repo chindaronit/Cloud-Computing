@@ -1,0 +1,73 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.user-card {
+  margin: 10rem 10rem;
+  padding: 10vh;
+}
+
+.seperator {
+  margin-top: 10vh;
+  padding: 10vh;
+}
+
+.form-label {
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.user-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.labelfont {
+  font-size: 16px;
+}
+
+.textfont {
+  font-size: 16px;
+}
+
+.ccard {
+  margin: 0 20vw;
+}
+
+.shadow {
+  box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 1), 0 4px 9px 0 rgba(0, 0, 0, 1);
+}
+
+.message {
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  margin: 1rem 0;
+}
+
+.feed-card {
+  margin: 5vh 50vh;
+}
+
+@media screen and (max-width: 768px) {
+  .textfont {
+    font-size: 28px;
+  }
+
+  .ccard {
+    margin: 0 8vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .textfont {
+    font-size: 28px;
+  }
+
+  .ccard {
+    margin: 0 10vw;
+  }
+}
